@@ -16,6 +16,7 @@ class App extends Component {
     return (
       <Router>
         <div>
+          
           <NavLink activeClassName="activelink" exact to="/React_Examples/react_router/build/index.html">Homepage</NavLink> <br/>
           <NavLink activeClassName="activelink" exact to="/xox">XOX Game</NavLink> <br/>
           <NavLink activeClassName="activelink" exact to="/calculator">Calculator</NavLink> <br/>
@@ -24,10 +25,10 @@ class App extends Component {
 
 					
 
-            <Route path="/React_Examples/react_router/build/index.html" exact strict component={Homepage} />
+          
             <Route path="/xox" exact strict component={Game} />
 						<Route path="/calculator" exact strict component={Calculator} />
-
+           <Route path="/"  strict component={Homepage} />
 					
 
 						
