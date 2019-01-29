@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": ".eslintrc.js",
+  "homepage": "https://aysesenafeyiz.github.io/React_Examples/todo_app",
   "dependencies": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
     "classnames": "^2.2.6",
@@ -23,12 +26,13 @@
     "style-loader": "^0.23.1",
     "todomvc-app-css": "^2.1.2",
     "todomvc-common": "^1.0.5",
-    "uuid": "^3.3.2",
-    "webpack": "^4.28.4",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.0",
     "webpack-cli": "^3.2.1",
     "webpack-dev-server": "^3.1.14"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint . --cache && echo \"eslint: no lint errors\"",
