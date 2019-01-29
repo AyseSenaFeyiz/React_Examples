@@ -15,7 +15,7 @@ class Homepage extends React.Component {
                         <Img src="https://github.com/AyseSenaFeyiz/ileriProgramlama/blob/master/ikon.png?raw=true" width="100" height="100" data-id="0" />
                         <br />
                         React Projects
-
+                    
                     </h3>
                     <div class="menu">
 
@@ -28,10 +28,9 @@ class Homepage extends React.Component {
                             <li><a href="https://aysesenafeyiz.github.io/React_Examples/xox/build/index.html">XOX Game</a></li>
                             <li><a href="https://aysesenafeyiz.github.io/React_Examples/React_Calculator/build/index.html">Calculator</a></li> 
                             <li><a href="https://aysesenafeyiz.github.io/React_Examples/React_Calculator/build/index.html">To Do App</a></li>
-                            &emsp; 
+                            &emsp;
                                     
                         </ul>
-
 
                         </ul>
 
