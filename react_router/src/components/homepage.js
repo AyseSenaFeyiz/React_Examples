@@ -24,11 +24,7 @@ class Homepage extends React.Component {
                         <ul>
 
                         <ul>
-                            <li><a href="https://aysesenafeyiz.github.io/React_Examples/react_router/build/index.html">React Router</a></li>
-                            <li><a href="https://aysesenafeyiz.github.io/React_Examples/xox/build/index.html">XOX Game</a></li>
-                            <li><a href="https://aysesenafeyiz.github.io/React_Examples/React_Calculator/build/index.html">Calculator</a></li> 
-                            <li><a href="https://aysesenafeyiz.github.io/React_Examples/React_Calculator/build/index.html">To Do App</a></li>
-                            &emsp; 
+                           
                                     
                         </ul>
 
