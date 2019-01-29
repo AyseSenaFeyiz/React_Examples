@@ -28,7 +28,7 @@ class App extends Component {
           
             <Route path="/xox" exact strict component={Game} />
 						<Route path="/calculator" exact strict component={Calculator} />
-           <Route path="/"  strict component={Homepage} />
+           <Route path="/"  component={Homepage} />
 					
 
 						
