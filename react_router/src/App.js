@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import Img from 'react-image';
 import { BrowserRouter as Router, Route, Link, NavLink, Redirect, Switch } from 'react-router-dom';
 import Game from './components/xox';
 import Calculator from './components/calculator';
@@ -14,7 +14,7 @@ import './components/homepage.css';
 class App extends Component {
   render() {
     return (
-
+<Router>
       <div className="homepage">
                 <div className="container">
                     <div className="banner"></div>
@@ -75,9 +75,9 @@ class App extends Component {
 
 
                     </div >
-      <Router>
+      
         <div>
-          <NavLink activeClassName="activelink" exact to="/react_router/build/index.html">Homepage</NavLink> <br/>
+          <NavLink activeClassName="activelink" exact to="/React_Examples/react_router/build/index.html">Homepage</NavLink> <br/>
           <NavLink activeClassName="activelink" exact to="/xox">XOX Game</NavLink> <br/>
           <NavLink activeClassName="activelink" exact to="/calculator">Calculator</NavLink> <br/>
 
@@ -88,7 +88,7 @@ class App extends Component {
             
             <Route path="/xox" exact strict component={Game} />
 						<Route path="/calculator" exact strict component={Calculator} />
-            <Route path= "/react_router/build/index.html" component={Homepage} />
+            <Route path= "/React_Examples/react_router/build/index.html" exact strict component={Homepage} />
 					
 
 						
