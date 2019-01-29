@@ -24,7 +24,7 @@ class App extends Component {
 
 					
 
-            <Route path="/" exact strict component={Homepage} />
+            <Route path="/React_Examples/react_router/build/index.html" exact strict component={Homepage} />
             <Route path="/xox" exact strict component={Game} />
 						<Route path="/calculator" exact strict component={Calculator} />
 
