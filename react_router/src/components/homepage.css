@@ -1,0 +1,27 @@
+    h3 { padding: 12px 0 0 20px;
+    color: #472486}
+        p  { padding: 0 0 0 20px; }
+        li { padding: 3px; }
+        .container {
+            width: 550px;
+            margin: 0 auto;
+            border: 1px solid #4b2590;
+            background-color: #673ab763;
+    }
+    .banner {
+            width: 550px;
+            
+            background-color: #673ab763;
+    }
+    .menu {
+            width: 550px;
+            
+            background-color:#fff0fe;
+            float:left;
+    }
+    .footer {
+            clear:both;
+            width: 550px;
+            
+            background-color: #673ab763;
+    }
