@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <NavLink activeClassName="activelink" exact to="/">Homepage</NavLink> <br/>
+          <NavLink activeClassName="activelink" exact to="/React_Examples/react_router/build/index.html">Homepage</NavLink> <br/>
           <NavLink activeClassName="activelink" exact to="/xox">XOX Game</NavLink> <br/>
           <NavLink activeClassName="activelink" exact to="/calculator">Calculator</NavLink> <br/>
 
