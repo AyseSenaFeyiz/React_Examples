@@ -51,7 +51,7 @@ class Homepage extends React.Component {
                             <li><a href="https://www.npmjs.com/package/react-image">React image</a></li> 
                             <li><a href="https://omergulcicek.github.io/react/uygulamali-egitim/xox-oyunu">XOX Game</a></li> 
                             <li><a href="https://medium.com/@alicankustemur/react-js-ve-github-pages-ile-single-page-application-olu%C5%9Fturulmas%C4%B1-c68e9d09232">Deploy your react app on GitHub</a></li> 
-                            
+                            <li><a href="https://medium.com/@mozkarakoc/react-tutorial-1-proje-kurulumu-react-webpack-babel-eslint-166b4545d48c">React, Webpack, Babel, ESLint</a></li> 
                             
                             &emsp;    
                                 
